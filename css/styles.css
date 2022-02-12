@@ -13,6 +13,18 @@
   --accent-color: #2196f3;
   --hero-footer-bg-color: #2f303a;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /* Основное */
 body {
   color: var(--primary-text-color);
@@ -22,7 +34,14 @@ body {
   letter-spacing: 0.03em;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: violet;
 }
 /* Лого */
 .logo-web {
@@ -43,6 +62,14 @@ body {
 .logo-link:hover,
 .logo-link:focus {
   color: var(--accent-color);
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid chartreuse;
+  background-color: cyan;
 }
 /* Навигация */
 
@@ -87,19 +114,19 @@ body {
 .hero {
   color: var(--title-text-color);
   background-color: var(--hero-footer-bg-color);
+  text-align: center;
 }
 .hero-title {
-  /* color: var(--title-text-color);
-  background-color: var(--hero-footer-bg-color); */
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .title {
+  margin-bottom: 10px;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -108,16 +135,16 @@ body {
 }
 
 .gallery-headline-primary {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.gallery-item {
-  background-color: var(--title-text-color);
-}
+
 .gallery-headline {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -129,6 +156,9 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.gallery-pic {
+  margin-bottom: 30px;
+}
 .text {
   color: var(--secondary-text-color);
   font-size: 16px;
@@ -136,6 +166,7 @@ body {
   letter-spacing: 0.03em;
 }
 .text-index {
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.18px;
   letter-spacing: 0.03em;
@@ -157,7 +188,13 @@ body {
   background-color: #188ce8;
 }
 .hero-button {
+  margin-bottom: 200px;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
   font-family: inherit;
+  border-color: transparent;
   color: var(--title-text-color);
   background-color: var(--accent-color);
   font-weight: 700;
@@ -174,6 +211,11 @@ body {
   background-color: var(--accent-color);
 }
 .button-primary {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-align: center;
+  border-color: transparent;
   color: var(--title-text-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -191,6 +233,11 @@ body {
   background-color: var(--accent-color);
 }
 .button-secondary {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  text-align: center;
+  border-color: transparent;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
   font-family: inherit;
@@ -203,6 +250,8 @@ body {
 /* Футер */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: rgb(255, 255, 255, 0.6);
   background-color: var(--hero-footer-bg-color);
   text-decoration: none;
