@@ -235,6 +235,9 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
+.gallery-pic {
+  margin-bottom: var(--list-set);
+}
 .galery-headline-portfolio {
   padding-bottom: 4px;
 
