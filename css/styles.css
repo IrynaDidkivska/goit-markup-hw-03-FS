@@ -71,9 +71,6 @@ img {
 
 /* Лого */
 .page-header {
-  display: flex;
-  align-items: center;
-
   padding-top: var(--padding-site-nav);
   padding-bottom: var(--padding-site-nav);
   border-bottom: 1px solid #ececec;
