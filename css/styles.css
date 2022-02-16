@@ -139,6 +139,7 @@ img {
 .auth-nav {
   display: flex;
   justify-content: flex-end;
+  
 }
 .auth-nav-link {
   text-decoration: none;
