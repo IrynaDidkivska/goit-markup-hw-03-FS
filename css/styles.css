@@ -269,7 +269,9 @@ img {
   padding-right: var(--padding-text);
   padding-bottom: 20px;
   padding-left: var(--padding-text);
+
   border: 1px solid #eeeeee;
+  border-top: none;
 }
 .button-list {
   display: flex;
