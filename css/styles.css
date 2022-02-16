@@ -73,6 +73,7 @@ img {
 .page-header {
   display: flex;
   align-items: center;
+
   padding-top: var(--padding-site-nav);
   padding-bottom: var(--padding-site-nav);
   border-bottom: 1px solid #ececec;
@@ -101,6 +102,10 @@ img {
 }
 
 /* Навигация */
+.header {
+  display: flex;
+  text-align: center;
+}
 .nav {
   display: flex;
   align-items: center;
@@ -136,10 +141,12 @@ img {
   text-decoration: none;
 }
 /* auth-nav */
+.auth {
+  display: flex;
+}
 .auth-nav {
   display: flex;
-  justify-content: flex-end;
-  
+  margin-left: auto;
 }
 .auth-nav-link {
   text-decoration: none;
@@ -351,10 +358,14 @@ img {
   background-color: var(--accent-color);
 }
 .button-primary {
+  max-width: 73px;
+  min-width: 73px;
   display: inline-block;
   border-radius: 4px;
   padding: 6px 22px;
   text-align: center;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 
   font-family: inherit;
   font-weight: 500;
