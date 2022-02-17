@@ -332,10 +332,8 @@ img {
   background-color: #188ce8;
 }
 .hero-button {
-  display: inline-block;
-  border-radius: 4px;
-  padding: 10px 32px;
   min-width: 200px;
+  padding: 10px 32px;
 
   font-family: inherit;
   font-weight: 700;
@@ -344,9 +342,11 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
 
-  border-color: transparent;
+  border: none;
   color: var(--title-text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .button-primary {
   cursor: pointer;
@@ -356,14 +356,9 @@ img {
   background-color: var(--accent-color);
 }
 .button-primary {
-  max-width: 73px;
   min-width: 73px;
-  display: inline-block;
-  border-radius: 4px;
   padding: 6px 22px;
   text-align: center;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 
   font-family: inherit;
   font-weight: 500;
@@ -371,9 +366,12 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
 
-  border-color: transparent;
+  border: none;
   color: var(--title-text-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .button-secondary {
   cursor: pointer;
@@ -385,7 +383,6 @@ img {
 }
 .button-secondary {
   display: inline-block;
-  border-radius: 4px;
   padding: 6px 22px;
 
   text-align: center;
@@ -395,9 +392,10 @@ img {
   line-height: 1.62;
   letter-spacing: 0.03em;
 
-  border-color: transparent;
+  border: none;
   color: var(--primary-text-color);
   background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 /* Футер */
@@ -412,8 +410,6 @@ img {
 }
 
 .footer-link {
-  display: block;
-
   color: var(--title-text-color);
   text-decoration: none;
   font-style: normal;
@@ -431,7 +427,6 @@ img {
 }
 
 .logo-footer {
-  display: block;
   margin-bottom: 20px;
   text-decoration: none;
   font-family: Raleway;
@@ -442,7 +437,6 @@ img {
 }
 
 .auth-address {
-  display: block;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
