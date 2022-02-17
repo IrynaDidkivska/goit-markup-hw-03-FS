@@ -101,15 +101,12 @@ img {
 /* Навигация */
 .header {
   display: flex;
-  text-align: center;
-}
-.nav {
-  display: flex;
   align-items: center;
 }
 
 .site-nav {
   display: flex;
+  align-items: center;
 }
 
 .site-nav-link {
@@ -138,12 +135,17 @@ img {
   text-decoration: none;
 }
 /* auth-nav */
+.auth {
+  display: flex;
+  align-items: center;
+}
 
 .auth-nav {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
+
 .auth-nav-link {
   text-decoration: none;
   font-weight: 500;
